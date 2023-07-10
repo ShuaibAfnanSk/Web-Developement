@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.BlogHolder {
+    padding: 1em 3em;
+    display: flex;
+    width: 100%;
+    gap: 2em;
+}
+
+.blogLeft {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogDetails {
+    display: flex;
+    flex-direction: column;
+    gap: .75em;
+}
+
+.stampsHere {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.stampsHere h5 {
+    font-size: 1.25em;
+    font-family: 'Lobster two';
+}
+
+.blogRight {
+    flex: 7;
+    width: 100%;
+    height: 600px;
+}
+
+.blogPhoto {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.author {
+    width: 100%;
+    display: flex;
+    padding: 1em;
+    background: #efefef;
+    border-radius: 8px;
+    max-height: 150px;
+    gap: 1em;
+}
+
+.authorImg {
+    flex: 3;
+}
+
+.authorDetails {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.authorImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.socailIcons {
+    display: flex;
+    gap: .5em;
+}
+
+.socailIcons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.authorDetails span h5 {
+    font-family: 'Lobster Two';
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+.socailIcons i:hover {
+    background: #000;
+    color: #fff;
+}
+
+.blogHeader h3 {
+    font-family: 'Viga';
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.blogHeader p {
+    font-size: 1em;
+}
+
+.buttons {
+    display: flex;
+    gap: .5em;
+}
+
+.buttons i {
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.buttons i:hover {
+    background: #000;
+    color: #efefef;
+}
+
+.BlogContent {
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.blogtitle {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.blogStory {
+    font-size: 1.1em;
+    width: 50vw;
+}
+
+.updateInput {
+    border: none;
+    font-size: 2em;
+}
+
+.updateInput:focus {
+    outline: none;
+}
+
+.updateInputText {
+    font-size: 1.1em;
+}

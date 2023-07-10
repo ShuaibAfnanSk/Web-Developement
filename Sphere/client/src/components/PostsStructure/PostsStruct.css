@@ -1,0 +1,50 @@
+.PostsHeader {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 100%;
+    align-items: center;
+    padding: 3em 0em;
+}
+
+.PostsHeader h3 {
+    font-family: 'Lobster Two';
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.PostsHeader h5 {
+    font-size: 1.25em;
+}
+
+.Posts {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.filter {
+    display: flex;
+    gap: 1em;
+    padding: 0em 2em;
+}
+
+.FilterBtn {
+    padding: .5em 1.5em;
+    background: #efefef;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Viga';
+    font-size: 1.10em;
+    text-transform: uppercase;
+    border-bottom: 5px solid rgba(0,0,0,1);
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.FilterBtn:hover {
+    background: #eaeaea;
+}
