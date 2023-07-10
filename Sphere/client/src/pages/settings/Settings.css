@@ -1,0 +1,93 @@
+.Settings {
+    padding: 1em 3em;
+    width: 100%;
+}
+
+.settingsTitle {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.settingsDeleteTitle {
+    padding: .5em 1em;
+    width: fit-content;
+    border-bottom: 5px solid rgba(0,0,0,0.25);
+    background: #efefef;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.settingsDeleteTitle:hover {
+    border-bottom: 5px solid rgba(0,0,0,1);
+}
+
+.ProfileImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    object-position: center;
+    position: absolute;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.settingsPP {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.inputForm {
+    border: none;
+    font-size: 1.25em;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    width: 300px;
+}
+
+.inputForm:focus {
+    outline: none;
+}
+
+.FormSubmit {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-bottom: 5px solid rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+
+.FormSubmit:hover {
+    border-bottom: 5px solid rgba(0,0,0,1);
+}
+
+.settingsPP div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingsPP div i {
+    width: 45px;
+    height: 45px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
